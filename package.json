@@ -1,12 +1,9 @@
 {
-  "name": "registry",
-  "version": "1.0.0",
+  "name": "mfe-registry",
   "private": true,
+  "type": "module",
   "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "dev": "vercel dev",
+    "start": "node api/registry.js"
   }
 }
