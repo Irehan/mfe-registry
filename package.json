@@ -3,7 +3,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vercel dev",
-    "start": "node api/registry.js"
+    "start": "node server.js",
+    "local": "node server.js",
+    "dev:vercel": "vercel dev"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
   }
 }

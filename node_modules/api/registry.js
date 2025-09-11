@@ -1,4 +1,3 @@
-// api/registry.js
 let store = {
   microFrontends: [],
   updatedAt: new Date().toISOString()
